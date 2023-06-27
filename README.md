@@ -1,30 +1,36 @@
-# Salesforce DX Project: Next Steps
+# Screen flow: Create NPSP Opportunity and take MOTO payment
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A simple screen flow for use from a Contact record to create an Opportunity in NPSP, followed by taking a payment through FinDock's MOTO component.
 
-## How Do You Plan to Deploy Your Changes?
+## Requirements
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+This flow assumes that you have FinDock and NPSP installed, along with the FinDock for NPSP package, and the Stripe for FinDock package.
 
-## Configure Your Salesforce DX Project
+## Installation
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+1. Install the flow (Screen Flow - New Opportunity and MOTO Payment). To deploy the flow to your Salesforce environment, you can:
+- use `sfdx`.
+- press the "Deploy to Salesforce" button at the top of this README and then press "Login to Salesforce" in the top right of your screen.
+- any other deployment method you prefer.
 
-## Read All About It
+2. Update the "Take Card Payment" screen in the flow, to define your Target for the FinDock Payment component and update any of the settings (i.e. if you want to save the card for use in the future).
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+3. Activate the flow
 
-## Contributing
+4. You can then include the flow on your Contact page layout or trigger it an Action on the Contact object. (When adding to a Page Layout, make sure to tick the checkbox to Pass the record ID into the variable recordId.)
+
+## Notes
+
+This is only meant to be a starter to get you going - feel free to customise this flow to meet the needs of your nonprofit with additional fields and actions.
+
+# Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via an issue or any other method with FinDock before making a change.
 
-## Support
+# Support
 
 FinDock Labs is a non-supported group in FinDock that releases applications. Despite the name, assistance for any of these applications is not provided by FinDock Support because they are not officially supported features. For a list of these apps, visit the FinDock Labs account on Github. 
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
