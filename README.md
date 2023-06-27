@@ -1,3 +1,8 @@
+<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=https://github.com/FinDockLabs/moto-screen-flow&ref=main">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 # Screen flow: Create NPSP Opportunity and take MOTO payment
 
 A simple screen flow for use from a Contact record to create an Opportunity in NPSP, followed by taking a payment through FinDock's MOTO component.
