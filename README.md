@@ -1,4 +1,4 @@
-<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=https://github.com/FinDockLabs/moto-screen-flow&ref=main">
+<a href="https://githubsfdeploy.herokuapp.com?owner=FinDockLabs&repo=moto-screen-flow&ref=main">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
